@@ -1,0 +1,10 @@
+.player-arrow {
+    position: absolute;
+    top: 4px;
+    transform: translateX(-44px);
+    transition: transform 200ms ease-in-out;
+  }
+  
+  .player-arrow[data-currentPlayer="2"] {
+    transform: translateX(44px);
+  }

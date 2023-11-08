@@ -1,3 +1,11 @@
+html, body {
+    font-size: 10px;
+    height: 100%;
+}
+
 body {
-    background-color: var(--color-pomg-and-power)
+    background-color: var(--color-pomg-and-power);
+    max-width: 320px;
+    margin: 0 auto;
+    font-family: 'Press Start 2P', cursive;
 }
